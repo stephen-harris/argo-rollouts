@@ -83,19 +83,18 @@ spec:
                     properties:
                       datadog:
                         properties:
+                          address:
+                            type: string
                           apikey:
                             type: string
                           appkey:
                             type: string
                           query:
                             type: string
-                          url:
-                            type: string
                         required:
                         - apikey
                         - appkey
                         - query
-                        - url
                         type: object
                       job:
                         properties:
@@ -2903,19 +2902,18 @@ spec:
                     properties:
                       datadog:
                         properties:
+                          address:
+                            type: string
                           apikey:
                             type: string
                           appkey:
                             type: string
                           query:
                             type: string
-                          url:
-                            type: string
                         required:
                         - apikey
                         - appkey
                         - query
-                        - url
                         type: object
                       job:
                         properties:
@@ -5651,19 +5649,18 @@ spec:
                     properties:
                       datadog:
                         properties:
+                          address:
+                            type: string
                           apikey:
                             type: string
                           appkey:
                             type: string
                           query:
                             type: string
-                          url:
-                            type: string
                         required:
                         - apikey
                         - appkey
                         - query
-                        - url
                         type: object
                       job:
                         properties:
