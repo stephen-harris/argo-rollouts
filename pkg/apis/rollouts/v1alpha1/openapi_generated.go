@@ -1025,6 +1025,12 @@ func schema_pkg_apis_rollouts_v1alpha1_DatadogMetric(ref common.ReferenceCallbac
 							Format: "",
 						},
 					},
+					"interval": {
+						SchemaProps: spec.SchemaProps{
+							Type:   []string{"string"},
+							Format: "",
+						},
+					},
 					"query": {
 						SchemaProps: spec.SchemaProps{
 							Type:   []string{"string"},

@@ -888,6 +888,7 @@ spec:
     provider:
       datadog:
         address: https://api.datadoghq.com
+        interval: 5m
         apikey: {{args.datadog-api-key}}
         appkey: {{args.datadog-app-key}}
         query: |
