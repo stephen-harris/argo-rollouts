@@ -85,17 +85,11 @@ spec:
                         properties:
                           address:
                             type: string
-                          apikey:
-                            type: string
-                          appkey:
-                            type: string
                           interval:
                             type: string
                           query:
                             type: string
                         required:
-                        - apikey
-                        - appkey
                         - query
                         type: object
                       job:
@@ -2906,17 +2900,11 @@ spec:
                         properties:
                           address:
                             type: string
-                          apikey:
-                            type: string
-                          appkey:
-                            type: string
                           interval:
                             type: string
                           query:
                             type: string
                         required:
-                        - apikey
-                        - appkey
                         - query
                         type: object
                       job:
@@ -5655,17 +5643,11 @@ spec:
                         properties:
                           address:
                             type: string
-                          apikey:
-                            type: string
-                          appkey:
-                            type: string
                           interval:
                             type: string
                           query:
                             type: string
                         required:
-                        - apikey
-                        - appkey
                         - query
                         type: object
                       job:
